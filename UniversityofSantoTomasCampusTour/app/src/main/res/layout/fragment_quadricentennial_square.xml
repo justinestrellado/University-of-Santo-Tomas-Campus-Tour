@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.ust.justin.universityofsantotomascampustour.QuadricentennialSquare$PlaceholderFragment"
+    android:weightSum="1">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+        android:layout_weight="1.00">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Quadricentennial Square"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="225dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/quadri"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Description: "
+            android:textStyle="italic"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Replacing the old Colayco Park and its adjacent UST Cooperative Center, the Quadricentennial Square was built as a memorial of the University's four centuries of existence. It has two main features: the Quadricentennial Fountain and the Quattromondial. It is located between the Main Building and the Miguel de Benavides Library. The Colayco Shrine, an iron statue commemorating the World War 2 victim Capt. Manuel Colayco, was nowhere to be found since its removal from the site in 2006."
+            android:textSize="16dp"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Quadricentennial Fountain"
+            android:textStyle="italic"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="It is a recreational water attraction and interactive fountain was unveiled in 2007."
+            android:textSize="16dp"
+            android:id="@+id/textView9"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="It was designed and built by Industron Inc., the same designer of Cultural Center of the Philippines and Liwasang Bonifacio fountains in Manila."
+            android:textSize="16dp"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The fountain has sun-like floor patterns to pay tribute to the University’s patron saint, Thomas Aquinas. It also has four cornerstones that highlight UST milestones during its first, second, third, and fourth centuries of existence."
+            android:textSize="16dp"
+            android:id="@+id/textView13"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView14"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="According to UST Facilities Management Office administrator Antonio Espejo, the fountain uses recycled water treated with chlorine. It runs three times a day (6AM to 8AM, 11AM to 1PM, and 5PM to 8PM)."
+            android:textSize="16dp"
+            android:id="@+id/textView15"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView16"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="There is a superstition that to counter the effect of passing through the Arch of the Centuries while studying in the University, One must take a shower in the fountain as it will cleanse the student and will prevent the happening of an event that will bar the student from graduating in the University."
+            android:textSize="16dp"
+            android:id="@+id/textView17"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

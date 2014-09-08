@@ -1,0 +1,454 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.ust.justin.universityofsantotomascampustour.ustmap$PlaceholderFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="University of Santo Tomas Campus Map"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/ustmap"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1. Seminary Gymansium"
+            android:textSize="16dp"
+            android:id="@+id/textView4"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2. Plaza Mayor"
+            android:id="@+id/textView5"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3. Botanical garden"
+            android:id="@+id/textView6"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="4. Benavidez Building"
+            android:id="@+id/textView7"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5. UST Buildings and Grounds Department"
+            android:id="@+id/textView8"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="6. PE Annex"
+            android:textSize="16dp"
+            android:id="@+id/textView9"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="7. St. Raymund of Peñafort Building"
+            android:id="@+id/textView10"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="8. St. Martin de Porres Building"
+            android:id="@+id/textView11"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9. UST Hospital Clinical Division OPD"
+            android:id="@+id/textView12"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="10. Central Seminary"
+            android:id="@+id/textView13"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="11. UST Covered Court (P.Noval Court)"
+            android:id="@+id/textView14"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="12. Botanical Garden"
+            android:id="@+id/textView15"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="13. Plaza Calderon"
+            android:id="@+id/textView16"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="14. Santisimo Rosario Parish Church and Dominican Residence"
+            android:id="@+id/textView17"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="15. UST Main Building"
+            android:id="@+id/textView18"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="16. Museum of Arts and Sciences"
+            android:id="@+id/textView19"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="17. Benavidez Cancer Research Institute"
+            android:id="@+id/textView20"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="18. UST Hospital"
+            android:id="@+id/textView21"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="19. UST Hospital Extension Building"
+            android:id="@+id/textView22"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="20. UST Health Services"
+            android:id="@+id/textView23"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="21. UST Publishing House"
+            android:id="@+id/textView24"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="22. Thomasian Alumni Center"
+            android:id="@+id/textView25"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="23. Benavidez Park"
+            android:id="@+id/textView26"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="24. UST Multi-deck Car park/Alfredo M. Velayo Building"
+            android:id="@+id/textView27"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="25. UST Swimming Pool"
+            android:id="@+id/textView28"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="26. Grandstand"
+            android:id="@+id/textView29"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="27. Grade School Playground"
+            android:id="@+id/textView30"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="28. Domus Mariae International Residence"
+            android:id="@+id/textView31"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="29. Beato Angelico Building"
+            android:id="@+id/textView32"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="30. Fr. Roque Ruaño, O.P. Building"
+            android:id="@+id/textView33"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="31. Tinoco Park"
+            android:id="@+id/textView34"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="32. Fountain of Knowledge"
+            android:id="@+id/textView35"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="33. Arch of the Centuries"
+            android:id="@+id/textView36"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="34. Fountain of Wisdom"
+            android:id="@+id/textView37"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="35. Albertus Magnus Building"
+            android:id="@+id/textView38"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="36. The Alumni Walkway"
+            android:textSize="16dp"
+            android:id="@+id/textView39"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="37. UST Tan Yan Kee Student Center"
+            android:id="@+id/textView40"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="38. Anatomy Laboratory"
+            android:id="@+id/textView41"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="39. Medicine Auditorium"
+            android:id="@+id/textView42"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="40. Miguel de Benavides Library"
+            android:id="@+id/textView43"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="41. Quattromondial Monument"
+            android:id="@+id/textView44"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="42. Quadricentennial Fountain"
+            android:id="@+id/textView45"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="43. Football Field/Parade Grounds/Open Field"
+            android:id="@+id/textView46"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="44. Thomas Aquinas Research Complex"
+            android:id="@+id/textView47"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="45. UST Sports Complex"
+            android:id="@+id/textView48"
+            android:textSize="16dp"
+            android:layout_gravity="left" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

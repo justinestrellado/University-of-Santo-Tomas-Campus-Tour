@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.ust.justin.universityofsantotomascampustour.Rosarium$PlaceholderFragment">
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rosarium"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/rosarium"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Description:"
+            android:textStyle="italic"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The UST Rosarium is a roughly 1125sq.meters irregularly shaped park located inside the UST grounds beside the Main building. The Rosary garden was built to maximize the space of the UST open parks in order for the University to promote its religious mission among the students and the personnel of the University."
+            android:textSize="16dp"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The plan on building the Rosarium was approved on July 26, 2011. It was blessed on the 29th day of September of the same year. They have organized a procession starting from the UST grounds and had a mass on Sto.Domingo church for the blessing."
+            android:textSize="16dp"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="It is considered as one of the 21st century parks for the reason of its elements and Architectural Design and it was just constructed last 2011. It is uncomplicated and the design of each monument signifies the beads of the Holy Rosary. They have added the Fluidity concept on its design that can be seen through its water features which covers on every part of the park. It has a central shrine where the icon of the Blessed Virgin Mary is situated."
+            android:textSize="16dp"
+            android:id="@+id/textView9"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="It’s primarily Tropic in its atmosphere and it is a Contemporary Zen garden style with a bundle of water features along its vast and patterned stone monuments which serve as its main inspiration. A Generic park is perceptibly full of trees and pavilions for the function of accommodating a large quantity of people who desires to loosen up from mind stressing environment."
+            android:textSize="16dp"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

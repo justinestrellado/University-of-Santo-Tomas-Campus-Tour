@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ust.justin.universityofsantotomascampustour" >
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".arch"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuadricentennialPavilion"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RoqueRuanoBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AlbertusMagnusBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AMV"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".USTHospital"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".USTHealthService"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".PlazaBenavides"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BenavidesMonument"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MainBuilding"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Rosarium"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".StMartinDePorresBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".StRaymundPenafortBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuadricentennialSquare"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MigueldeBenavidesLibrary"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TanYanKeeBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TARC"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BenavidesBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SantisimoRosarioParishChurch"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BuenaventuraGarciaParedesOPBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BeatoAngelicoBldg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ustmap"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

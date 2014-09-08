@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.ust.justin.universityofsantotomascampustour.PlazaBenavides$PlaceholderFragment">
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Plaza Benavides"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/benapark"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Description:"
+            android:textStyle="italic"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="THE MONUMENT OF Bishop Miguel de Benavides, O.P., stands in front of the main building entrance of the university. His pioneering desire to establish an educational institution, with the fund he bequeathed (along with his personal library collection) paved the way for the establishment of the university in 1611. The bronze statue was originally unveiled in Intramuros in 1891. Made in Paris in 1889, it was installed in its present site in 1946. It bears the signature of Tony Noel."
+            android:textSize="16dp"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

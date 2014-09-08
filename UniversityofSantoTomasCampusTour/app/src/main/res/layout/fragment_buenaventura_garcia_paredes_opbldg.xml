@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.ust.justin.universityofsantotomascampustour.BuenaventuraGarciaParedesOPBldg$PlaceholderFragment">
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Buenaventura Garcia Paredes, O.P. Building"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/alumni"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Description"
+            android:textStyle="italic"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="As one of the major facilities to be built in the Manila campus of Pontifical and Royal University of Santo Tomas, the Buenavenura Garcia Paredes, O.P. Building is poised to serve as the meeting place of all members of the alumni in the Philippines and abroad. The center is conceived to house the individual alumni chapters of each faculty and college. The structure honors the name of Blessed Buenaventura García de Paredes, who was a law professor of the University and a Master of the Order of Preachers martyred in 1936 during the religious persecution in Spain."
+            android:textSize="16dp"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The proposed site is the current location of UST's original gymnasium, which was the largest in the Philippines when it was built. Given its historic importance to UST, the gym's front and rear façade will be kept and the entrance of the alumni center will be placed along Tamayo Drive. The adjacent Olympic-sized swimming pool will also remain, yet refurbished."
+            android:textSize="16dp"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

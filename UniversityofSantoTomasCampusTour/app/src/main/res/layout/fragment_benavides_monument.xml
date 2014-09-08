@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.ust.justin.universityofsantotomascampustour.BenavidesMonument$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Benavides Monument"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="139dp"
+                android:layout_height="210dp"
+                android:id="@+id/imageView"
+                android:background="@drawable/bena"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Description:"
+                android:textStyle="italic"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Miguel de Benavides y Añoza (c. 1552 – July 26, 1605) was a Spanish clergyman and sinologist, the first Bishop of the Diocese of Nueva Segovia, the third Archbishop of the Archdiocese of Manila, and founder of the University of Santo Tomas in Manila."
+                android:id="@+id/textView5"
+                android:textSize="16dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:textSize="16dp"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="He joined the first group of Dominicans going to Manila in 1587, proceeding with them on to China where he hoped to expand the local Catholic church. He was later exiled, and established a hospital for the Chinese in Binondo, Manila, before becoming the head of his order. He accompanied Archbishop Domingo de Salazar to Spain to defend the native Filipinos against Spanish oppression."
+                android:textSize="16dp"
+                android:id="@+id/textView7"
+                android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
